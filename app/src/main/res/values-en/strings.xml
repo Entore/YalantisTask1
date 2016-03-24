@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">YalantisTask1</string>
+    <string name="created">Created</string>
+    <string name="registred">Registred</string>
+    <string name="Dnipropetrovsk_MVK">Dnipropetrovsk\'s MVK</string>
+    <string name="solve_until">Solve until</string>
+    <string name="state">In progress</string>
+    <string name="name_title">Municipal engineering</string>
+    <string name="d_25_02_2016">25 february 2016</string>
+    <string name="d_26_02_2016">26 february 2016</string>
+    <string name="d_29_02_2016">29 february 2016</string>
+    <string name="main_text">Opened hatch(near the billboard), the area on  turning 18 and 19 trams at Prospect Mira from the Donetsk highway</string>
+    <string name="responsible">Responsible</string>
+</resources>

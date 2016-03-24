@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="images">
+        <item>http://www.rp.mk.ua/wp-content/uploads/luk3.jpg</item>
+        <item>http://tverigrad.ru/wp-content/uploads/2012/07/3_lestnitsa.jpg</item>
+        <item>http://azbez.com/sites/azbez.com/files/images/kolodec.preview.jpg</item>
+        <item>http://kerch.fm/images/stories/fm_news/08.11/03.08/luki/1__.jpg</item>
+        <item>http://www.metronews.ru/novosti/v-lenoblasti-ishhut-vinovatyh-v-padenii-rebenka-v-kanalizaciju/Tpokiu---IO7iNqHxSW8E/66344016_80s_movies_2a.jpg</item>
+
+    </string-array>
+
+
+</resources>
