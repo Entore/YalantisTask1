@@ -58,7 +58,6 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void showToast(String text) {
-
         Toast toast = Toast.makeText(this, text.substring(TOAST_CUT_SYMBOLS), Toast.LENGTH_SHORT);
         toast.setGravity(Gravity.BOTTOM, TOAST_X_OFFSET, TOAST_Y_OFFSET);
         toast.show();
@@ -66,7 +65,6 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void showOnClick(View view) {
-
         showToast(view.getClass().getSimpleName());
     }
 
