@@ -27,7 +27,7 @@ public class ImageRecyclerAdapter extends RecyclerView.Adapter<ImageRecyclerAdap
 
     // Provide a reference to the views for each data item
     public static class ViewHolder extends RecyclerView.ViewHolder {
-        ImageView mImageView;
+      private ImageView mImageView ; //[Comment] wrong visibility modifier
 
         public ViewHolder(View itemView) {
             super(itemView);

@@ -14,12 +14,13 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-
+//[Comment] Wrong toolbar top elevation
+// Added elevation
 public class MainActivity extends AppCompatActivity {
 
     private List<String> mImage;
-    RecyclerView mRecyclerView;
-    RecyclerView.LayoutManager mLayoutManager;
+    private RecyclerView mRecyclerView; //[Comment] Wrong visibility modifier
+    private RecyclerView.LayoutManager mLayoutManager; //[Comment] Wrong visibility modifier
     private static final int TOAST_CUT_SYMBOLS = 9;
     private static final int TOAST_X_OFFSET = 0;
     private static final int TOAST_Y_OFFSET = 20;
@@ -31,7 +32,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        assert getSupportActionBar() != null;
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true); //[Comment] Can be null
         mImage = new ArrayList<>(Arrays.asList(getResources().getStringArray(R.array.images)));
         showImage(mImage);
 
@@ -62,7 +64,6 @@ public class MainActivity extends AppCompatActivity {
         toast.setGravity(Gravity.BOTTOM, TOAST_X_OFFSET, TOAST_Y_OFFSET);
         toast.show();
     }
-
 
     public void showOnClick(View view) {
         showToast(view.getClass().getSimpleName());

@@ -16,6 +16,7 @@
     <dimen name="margin_top">15dp</dimen>
     <dimen name="margin_bot">15dp</dimen>
     <dimen name="title_text">16sp</dimen>
+    <dimen name="elevation">2dp</dimen>
 
 
 </resources>
